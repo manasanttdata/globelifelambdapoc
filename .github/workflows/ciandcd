@@ -1,4 +1,4 @@
-name: Build CI
+name: CI and CD
 
 env:
   DOTNET_VERSION: '8.0.x'                 # set this to the .NET Core version to use
