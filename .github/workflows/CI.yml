@@ -1,4 +1,4 @@
-name: Build and deploy ASP.Net Core app to EC2
+name: Build CI
 
 env:
   DOTNET_VERSION: '8.0.x'                 # set this to the .NET Core version to use
