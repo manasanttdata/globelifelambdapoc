@@ -39,6 +39,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: artifactfile
+          path: ${{env.DOTNET_ROOT}}/myapp
     
       - name: Deploy lambda function from source
         uses: appleboy/lambda-action@v0.1.9
